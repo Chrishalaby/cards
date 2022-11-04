@@ -1,6 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { DataViewModule } from 'primeng/dataview';
+import { DropdownModule } from 'primeng/dropdown';
+import { ImageModule } from 'primeng/image';
+import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {InputTextModule} from 'primeng/inputtext';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +15,16 @@ import { HomeComponent } from './home/home.component';
 import {GalleriaModule} from 'primeng/galleria';
 import { FAQComponent } from './faq/faq.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
+import { PremadeComponent } from './premade/premade.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { MessageService } from 'primeng/api';
+import { FooterComponent } from './footer/footer.component';
+import { ButtonModule } from 'primeng/button';
+import { RippleModule } from 'primeng/ripple';
+import { CustomComponent } from './custom/custom.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TooltipModule } from 'primeng/tooltip';
+import {FileUploadModule} from 'primeng/fileupload';
 
 @NgModule({
   declarations: [
@@ -17,16 +32,32 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
     HeaderComponent,
     HomeComponent,
     FAQComponent,
-    HowItWorksComponent
+    HowItWorksComponent,
+    PremadeComponent,
+    ContactUsComponent,
+    FooterComponent,
+    CustomComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     TabMenuModule,
     GalleriaModule,
-    HttpClientModule
+    HttpClientModule,
+    DataViewModule,
+    DropdownModule,
+    ImageModule,
+    FormsModule,
+    ReactiveFormsModule,
+    InputTextModule,
+    ButtonModule,
+    RippleModule,
+    BrowserAnimationsModule,
+    TooltipModule,
+    FileUploadModule
+
   ],
-  providers: [],
+  providers: [MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

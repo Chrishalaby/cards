@@ -1,0 +1,21 @@
+<section class="flex align-content-center flex-wrap flex-column">
+  <span class="p-float-label mt-5">
+    <input id="float-input" type="text" pInputText>
+    <label for="float-input">Username</label>
+  </span>
+  <span class="p-float-label mt-5">
+    <input id="float-input" type="text" pInputText>
+    <label for="float-input">Email</label>
+  </span>
+  <span class="p-float-label mt-5">
+    <input id="float-input" type="text" pInputText>
+    <label for="float-input">Message</label>
+  </span>
+  <div class="field col-12 md:col-4">
+    <span class="p-float-label">
+        <textarea inputId="textarea" rows="3" style="resize: none;" cols="30" [(ngModel)]="value" pInputTextarea></textarea>
+        <label for="textarea">Textarea</label>
+    </span>
+  </div>
+  <button class="mt-5" type="button" pButton (click)="showViaService()" label="Send"></button>
+</section>

@@ -1,0 +1,37 @@
+<section class="flex justify-content-center flex-wrap">
+  <!-- <p class="flex flex-shrink-0">LOLLLLLLLLLLLLLLLLLLLLLLLLL</p>
+  <img class="flex flex-grow-1 flex-shrink-1" src="assets/images/cardType.webp" style="max-height: 25vh; max-width: 40vh"> -->
+  <p-galleria [value]="products" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}" [numVisible]="5">
+    <ng-template pTemplate="item" let-item>
+        <img [src]="'assets/images/' + item.image" [alt]="item.name"style="width: 100%;" />
+    </ng-template>
+    <ng-template pTemplate="thumbnail" let-item>
+        <div class="grid grid-nogutter justify-content-center">
+            <img [src]="item.image" />
+        </div>
+    </ng-template>
+</p-galleria>
+  <div class="flex align-content-center flex-wrap flex-column flex-shrink-0">
+    <p>Criply</p>
+    <h1 class="mt-0 text-3xl">Full Custom Card</h1>
+    <p class="my-0 text-xl">$90.00</p>
+    <p class="mt-0 text-xs">Tax Included + Free Shipping.</p>
+    <p-dropdown [options]="metals" [(ngModel)]="selectedMetal" placeholder="Select a Metal" optionLabel="name" [showClear]="true"></p-dropdown>
+    <p class="mb-0">Quantity</p>
+    <div class="flex flex-row justify-content-between mt-1">
+      <p-button (click)="removebtn()"><i class="pi pi-fw pi-angle-up"></i></p-button>
+      <p>{{val}}</p>
+      <p-button (click)="addbtn()"><i class="pi pi-fw pi-angle-down"></i></p-button>
+    </div>
+    <span class="p-float-label mt-3">
+      <input id="float-input" type="text" pTooltip="Must match name on plastic Card!" tooltipPosition="right" pInputText>
+      <label for="float-input">Name on Card</label>
+    </span>
+    <span class="p-float-label mt-4">
+      <input id="float-input" type="text" pTooltip="Engraved Below your name" tooltipPosition="right" pInputText>
+      <label for="float-input">Optional Text</label>
+    </span>
+    <p-fileUpload class="mt-2" mode="basic" name="myfile[]" url="./upload.php" (onUpload)="onUpload($event)" accept="image/*" chooseLabel="Upload Image"></p-fileUpload>
+  </div>
+
+</section>

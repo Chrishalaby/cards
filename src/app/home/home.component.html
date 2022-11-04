@@ -1,5 +1,45 @@
-<p-galleria [value]="products">
+<!-- <p-galleria [value]="products" [showThumbnails]="false">
   <ng-template pTemplate="item" let-item>
-      <img [src]="products[1].image" style="height: 10rem;" />
+      <img class="w-6" [src]="'assets/images/' + products[0].image" style="height: 50vh;"/>
   </ng-template>
-</p-galleria>
+</p-galleria> -->
+
+<section class="flex align-content-center flex-column flex-wrap line-height-3 text-center">
+    <h1 class="text-3xl mb-0">Criply Converts Your Plastic Credit/Debit Card to Luxurious Metal or 24K Gold.</h1>
+    <p class="mt-0">Works with any Card. No Annual Fees. No Hidden Fees. Secure.</p>
+    <h3 class="mb-0">Our Vision</h3>
+    <div class="flex justify-content-center">
+      <p class="sm:max-w-max md:w-6">
+        For many decades Metal Credit/Debit Cards were only reserved for the wealthy elite.
+        Until now! Criply is specialized in making the world's <b>Heaviest</b> and most
+        <b>Luxurious</b> Custom Metal Cards because we believe you deserve better than plastic.
+        Each card is a true art piece made for your pocket.
+        No more spending a fortune just to own a luxury metal card. This is Criply.
+      </p>
+    </div>
+    <div class="flex sm:flex-column md:flex-row justify-content-between align-items-center sm:mt-3 md:mt-8">
+      <img src="assets/images/skull.webp">
+      <div class="flex-column pl-5">
+        <h3 class="flex">Rare & Exclusive.</h3>
+        <p class="text-left sm:max-w-max md:w-7">
+          Each card is individually crafted and hand-finished to be the only one
+          like it in the world. With a precise laser, a beautiful design is engraved
+          on your card just like magic.
+        </p>
+      </div>
+    </div>
+    <div class="">
+      <h3>Heavier than any Card.</h3>
+      <p class="text-center">
+        A heavy Card was not enough for us.
+        So we made the World's Heaviest Luxury Metal Card. With 28 grams this
+        card will make a true difference which you can feel. Say Goodbye to plastic.
+      </p>
+      <button pButton pRipple type="button" label="Success" class="p-button-raised p-button-success" routerLink="premade"></button>
+    </div>
+    <div>
+      <img src="" alt="">
+      <h2>The 24K ALL IN GOLD CARD</h2>
+      <a href="">Learn More</a>
+    </div>
+</section>

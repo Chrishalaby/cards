@@ -1,7 +1,29 @@
 {
-  "HeaderPics": [
+  "data":[
+    {
+      "image": "one.webp",
+      "name": "World Traveler",
+      "price": 80
+    },
+    {
+      "image": "2.webp",
+      "name": "Random name",
+      "price":80
+    }
+  ],
+  "products": [
     {
       "image": "card.webp"
+    },
+    {
+      "image": "card2.webp"
+    },
+    {
+      "image": "card3.webp"
+    },
+    {
+      "image": "card4.webp"
     }
   ]
+
 }

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
 import { MenuItem } from 'primeng/api';
 
 
@@ -10,17 +9,17 @@ import { MenuItem } from 'primeng/api';
 })
 export class HeaderComponent implements OnInit {
   items: MenuItem[] = [
-    {label: 'HOME', icon: 'pi pi-fw pi-home', routerLink: '/'},
+    {label: 'HOME', icon: 'pi pi-fw pi-home', routerLink: 'home'},
     {label: 'FAQ', icon: 'pi pi-fw pi-question-circle', routerLink: 'faq'},
     {label: 'HOW IT WORKS', icon: 'pi pi-fw pi-cog', routerLink: 'how-it-works'},
-    {label: 'PREMADE DESIGNS', icon: 'pi pi-fw pi-file'},
-    {label: 'FULL CUSTOM CARD', icon: 'pi pi-fw pi-pencil'},
-    {label: 'CONTACT US', icon: 'pi pi-fw pi-send'}
+    {label: 'PREMADE DESIGNS', icon: 'pi pi-fw pi-file', routerLink: 'premade'},
+    {label: 'FULL CUSTOM CARD', icon: 'pi pi-fw pi-pencil', routerLink: 'custom'},
+    {label: 'CONTACT US', icon: 'pi pi-fw pi-send', routerLink: 'contact-us'}
   ] ;
-  activeItem= this.items[0];
+
   constructor(){}
   ngOnInit() {
-    this.activeItem = this.items[0];
+
   }
 
 }
