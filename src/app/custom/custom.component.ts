@@ -22,7 +22,7 @@ export class CustomComponent implements OnInit {
   products: Product[] = []
   uploadedFiles: any[] = [];
   metals: Metal[];
-  val= 0;
+  val= 1;
   selectedMetal: Metal | undefined;
 
   constructor(
@@ -54,7 +54,7 @@ export class CustomComponent implements OnInit {
   ];
 
   removebtn(){
-    if (this.val > 0) {
+    if (this.val > 1) {
       this.val--;
     }
   }

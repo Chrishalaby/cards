@@ -8,12 +8,12 @@ import { DataView } from 'primeng/dataview';
 export interface Product {
   image: string;
   name: string;
-  // description: string;
+  description: string;
   price: number;
-  // inventoryStatus: string;
-  // category: string;
-  // rating: number;
-  // color: string;
+  inventoryStatus: string;
+  category: string;
+  rating: number;
+  color: string;
 }
 
 @Component({

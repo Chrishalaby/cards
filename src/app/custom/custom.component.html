@@ -7,7 +7,7 @@
     </ng-template>
     <ng-template pTemplate="thumbnail" let-item>
         <div class="grid grid-nogutter justify-content-center">
-            <img [src]="item.image" />
+            <img [src]="'assets/images/' + item.image"/>
         </div>
     </ng-template>
 </p-galleria>
@@ -19,9 +19,9 @@
     <p-dropdown [options]="metals" [(ngModel)]="selectedMetal" placeholder="Select a Metal" optionLabel="name" [showClear]="true"></p-dropdown>
     <p class="mb-0">Quantity</p>
     <div class="flex flex-row justify-content-between mt-1">
-      <p-button (click)="removebtn()"><i class="pi pi-fw pi-angle-up"></i></p-button>
+      <p-button (click)="removebtn()" icon="pi pi-fw pi-angle-down"></p-button>
       <p>{{val}}</p>
-      <p-button (click)="addbtn()"><i class="pi pi-fw pi-angle-down"></i></p-button>
+      <p-button (click)="addbtn()" icon="pi pi-fw pi-angle-up"></p-button>
     </div>
     <span class="p-float-label mt-3">
       <input id="float-input" type="text" pTooltip="Must match name on plastic Card!" tooltipPosition="right" pInputText>
