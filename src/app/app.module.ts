@@ -25,7 +25,7 @@ import { CustomComponent } from './custom/custom.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TooltipModule } from 'primeng/tooltip';
 import {FileUploadModule} from 'primeng/fileupload';
-
+import {MenubarModule} from 'primeng/menubar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,7 +54,8 @@ import {FileUploadModule} from 'primeng/fileupload';
     RippleModule,
     BrowserAnimationsModule,
     TooltipModule,
-    FileUploadModule
+    FileUploadModule,
+    MenubarModule
 
   ],
   providers: [MessageService],
