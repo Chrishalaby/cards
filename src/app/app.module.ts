@@ -18,7 +18,6 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { PremadeComponent } from './premade/premade.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MessageService } from 'primeng/api';
-import { FooterComponent } from './footer/footer.component';
 import { ButtonModule } from 'primeng/button';
 import { RippleModule } from 'primeng/ripple';
 import { CustomComponent } from './custom/custom.component';
@@ -26,6 +25,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TooltipModule } from 'primeng/tooltip';
 import {FileUploadModule} from 'primeng/fileupload';
 import {MenubarModule} from 'primeng/menubar';
+import { EndfileComponent } from './endfile/endfile.component';
+import { TermsAndServicesComponent } from './terms-and-services/terms-and-services.component';
+import { PrivacyAndPolicyComponent } from './privacy-and-policy/privacy-and-policy.component';
+import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,8 +38,11 @@ import {MenubarModule} from 'primeng/menubar';
     HowItWorksComponent,
     PremadeComponent,
     ContactUsComponent,
-    FooterComponent,
-    CustomComponent
+    CustomComponent,
+    EndfileComponent,
+    TermsAndServicesComponent,
+    PrivacyAndPolicyComponent,
+    RefundPolicyComponent
   ],
   imports: [
     BrowserModule,
