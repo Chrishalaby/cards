@@ -1,17 +1,17 @@
-<section class="flex justify-content-center flex-wrap">
+<section class="flex justify-content-center flex-wrap mt-5">
   <!-- <p class="flex flex-shrink-0">LOLLLLLLLLLLLLLLLLLLLLLLLLL</p>
   <img class="flex flex-grow-1 flex-shrink-1" src="assets/images/cardType.webp" style="max-height: 25vh; max-width: 40vh"> -->
-  <p-galleria [value]="products" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}" [numVisible]="5">
+  <p-galleria class="sm:pr-0 md:pr-7" [value]="products" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}" [numVisible]="5" [circular]="true" [showItemNavigators]="true" [showThumbnails]="false" [showItemNavigatorsOnHover]="true">
     <ng-template pTemplate="item" let-item>
-        <img [src]="'assets/images/' + item.image" [alt]="item.name"style="width: 100%;" />
+        <img [src]="'assets/images/custom/' + item.image"style="width: 100%;" />
     </ng-template>
-    <ng-template pTemplate="thumbnail" let-item>
+    <!-- <ng-template pTemplate="thumbnail" let-item>
         <div class="grid grid-nogutter justify-content-center">
-            <img [src]="'assets/images/' + item.image"/>
+            <img [src]="'assets/images/custom/' + item.image"/>
         </div>
-    </ng-template>
+    </ng-template> -->
 </p-galleria>
-  <div class="flex align-content-center flex-wrap flex-column flex-shrink-0">
+  <div class="flex align-content-center flex-wrap flex-column sm: text-center">
     <p>Criply</p>
     <h1 class="mt-0 text-3xl">Full Custom Card</h1>
     <p class="my-0 text-xl">$90.00</p>
@@ -33,5 +33,21 @@
     </span>
     <p-fileUpload class="mt-2" mode="basic" name="myfile[]" url="./upload.php" (onUpload)="onUpload($event)" accept="image/*" chooseLabel="Upload Image"></p-fileUpload>
   </div>
-
+  <div class="flex flex-column align-content-center justify-content-center md:w-7 text-left">
+    <p class="line-height-3 text-center">
+      For a Fully Custom Design Luxury Metal Card,
+      please go through the purchase process and configure your
+      card and upload your artwork. We will email you after you place an order.
+      We will then create a design render and send you a mockup for approval
+      before we produce your card (up to 48 hours of design work).
+    </p>
+    <h4 class="mt-4">The Proccess:</h4>
+    <ol type="1">
+      <li>Place an order with your card design</li>
+      <li>Send us your card to our lab in Lebanon (We will email you shipping instructions)</li>
+      <li>We securly convert your card to metal</li>
+      <li>Receive your card (We will ship both cards back)</li>
+    </ol>
+    <p class="mt-2">You will have a functional custom luxury metal credit/debit card.</p>
+  </div>
 </section>

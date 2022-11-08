@@ -9,8 +9,6 @@ interface Metal {
 }
 export interface Product{
   image: string;
-  name: string;
-  price: number;
 }
 @Component({
   selector: 'app-custom',
@@ -71,7 +69,7 @@ export class CustomComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.httpClient.get<any>('assets/products.json').pipe(tap((products: any)=> {this.products = products.data;})).subscribe();
+    this.httpClient.get<any>('assets/products.json').pipe(tap((products: any)=> {this.products = products.customised;})).subscribe();
   }
 
 }

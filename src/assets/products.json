@@ -218,18 +218,30 @@
 
     }
   ],
-  "products": [
+  "customised": [
     {
-      "image": "card.webp"
+      "image": "custom-front-black-white.png"
     },
     {
-      "image": "card2.webp"
+      "image": "custom-back.png"
     },
     {
-      "image": "card3.webp"
+      "image": "custom-front-black-gold.png"
     },
     {
-      "image": "card4.webp"
+      "image": "custom-all.png"
+    },
+    {
+      "image": "custom-gold.png"
+    },
+    {
+      "image": "custom-rose_gold.png"
+    },
+    {
+      "image": "custom-silver.png"
+    },
+    {
+      "image": "custom-white.png"
     }
   ]
 
