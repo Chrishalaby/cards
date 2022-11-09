@@ -19,9 +19,9 @@
     <p-dropdown [options]="metals" [(ngModel)]="selectedMetal" placeholder="Select a Metal" optionLabel="name" [showClear]="true"></p-dropdown>
     <p class="mb-0">Quantity</p>
     <div class="flex flex-row justify-content-between mt-1">
-      <p-button (click)="removebtn()" icon="pi pi-fw pi-angle-down"></p-button>
+      <button pButton (click)="removebtn()" icon="pi pi-fw pi-angle-down" class="p-button-rounded p-button-text"></button>
       <p>{{val}}</p>
-      <p-button (click)="addbtn()" icon="pi pi-fw pi-angle-up"></p-button>
+      <button pButton (click)="addbtn()" icon="pi pi-fw pi-angle-up" class="p-button-rounded p-button-text"></button>
     </div>
     <span class="p-float-label mt-3">
       <input id="float-input" type="text" pTooltip="Must match name on plastic Card!" tooltipPosition="right" pInputText>

@@ -9,7 +9,7 @@
     <p class="mt-0">Works with any Card. No Annual Fees. No Hidden Fees. Secure.</p>
     <h3 class="mb-0">Our Vision</h3>
     <div class="flex justify-content-center">
-      <p class="sm:max-w-max md:w-6">
+      <p class="sm:w-6">
         For many decades Metal Credit/Debit Cards were only reserved for the wealthy elite.
         Until now! Criply is specialized in making the world's <b>Heaviest</b> and most
         <b>Luxurious</b> Custom Metal Cards because we believe you deserve better than plastic.
@@ -17,28 +17,33 @@
         No more spending a fortune just to own a luxury metal card. This is Criply.
       </p>
     </div>
-    <div class="flex flex-column justify-content-between align-items-center sm:mt-3 md:mt-5">
+    <div class="flex flex-column justify-content-between align-items-center mt-3">
       <!-- <img src="assets/images/skull.webp" class="w-3"> -->
-      <div class="flex-column">
-        <h3>Rare & Exclusive.</h3>
-        <p>
-          Each card is individually crafted and hand-finished to be the only one
-          like it in the world. With a precise laser, a beautiful design is engraved
-          on your card just like magic.
-        </p>
-      </div>
+      <h3>Rare & Exclusive.</h3>
+      <p>
+        Each card is individually crafted and hand-finished to be the only one
+        like it in the world. With a precise laser, a beautiful design is engraved
+        on your card just like magic.
+      </p>
       <h3>Heavier than any Card.</h3>
-      <p class="text-center">
+      <p>
         A heavy Card was not enough for us.
         So we made the World's Heaviest Luxury Metal Card. With 28 grams this
         card will make a true difference which you can feel. Say Goodbye to plastic.
       </p>
-      <p-button pRipple type="button" label="Success" class="p-button-raised p-button-success" routerLink="premade"></p-button>
-      <div class="min-w-screen h-full h-15 mt-2 pt-5" style="background-image: url('assets/Custom-Gold.png');background-repeat: no-repeat; background-position: center; background-size: contain;">
-        <!--  -->
-        <h2>The 24K ALL IN GOLD CARD</h2>
-        <a href="">Learn More</a>
-
+      <div class="flex flex-row justify-content-around">
+        <button pButton pRipple type="button" label="Premade Cards" class="p-button-text" routerLink="premade"></button>
+        <p class="m-5"></p>
+        <button pButton pRipple type="button" label="Custom Cards" class="p-button-text" routerLink="custom"></button>
+      </div>
+      <div class="h-20rem w-screen text-left mb-2" style="background-image: url('assets/Custom-Gold.png');background-repeat: no-repeat; background-position: center; background-size: cover;">
+        <h2 class="ml-5">The 24K ALL IN GOLD CRIPLY CARD</h2>
+        <button pButton pRipple type="button" label="Learn More" (click)="showDialog()" class="p-button-raised p-button-text"></button>
+        <p-dialog header="The 24K ALL IN GOLD CRIPLY CARD" [(visible)]="display">
+          Not only plated but Fully made out of Gold. <br>
+          What some can only dream about, can become in your possesion. <br>
+          For more information about this Luxury Item, please Contact Us.
+        </p-dialog>
       </div>
     </div>
 </section>

@@ -24,4 +24,10 @@ export class HomeComponent implements OnInit {
     this.httpClient.get<ProductJson>('assets/products.json').pipe(tap((products: ProductJson)=> {this.products = products.products;})).subscribe();
       // this.photoService.getImages().then(images => this.images = images);
   }
+  display: boolean = false;
+
+    showDialog() {
+        this.display = true;
+    }
+
 }

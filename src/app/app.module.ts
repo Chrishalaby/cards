@@ -6,6 +6,7 @@ import { DropdownModule } from 'primeng/dropdown';
 import { ImageModule } from 'primeng/image';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {InputTextModule} from 'primeng/inputtext';
+import {DialogModule} from 'primeng/dialog';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -61,8 +62,8 @@ import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
     BrowserAnimationsModule,
     TooltipModule,
     FileUploadModule,
-    MenubarModule
-
+    MenubarModule,
+    DialogModule
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]
