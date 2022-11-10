@@ -7,6 +7,7 @@ import { ImageModule } from 'primeng/image';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {InputTextModule} from 'primeng/inputtext';
 import {DialogModule} from 'primeng/dialog';
+import {StepsModule} from 'primeng/steps';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -30,6 +31,12 @@ import { EndfileComponent } from './endfile/endfile.component';
 import { TermsAndServicesComponent } from './terms-and-services/terms-and-services.component';
 import { PrivacyAndPolicyComponent } from './privacy-and-policy/privacy-and-policy.component';
 import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import {CheckboxModule} from 'primeng/checkbox';
+import { ToastModule } from 'primeng/toast';
+import {RatingModule} from 'primeng/rating';
+import {PanelModule} from 'primeng/panel';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +50,8 @@ import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
     EndfileComponent,
     TermsAndServicesComponent,
     PrivacyAndPolicyComponent,
-    RefundPolicyComponent
+    RefundPolicyComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
@@ -63,7 +71,13 @@ import { RefundPolicyComponent } from './refund-policy/refund-policy.component';
     TooltipModule,
     FileUploadModule,
     MenubarModule,
-    DialogModule
+    DialogModule,
+    StepsModule,
+    ToastModule,
+    CheckboxModule,
+    RatingModule,
+    PanelModule
+
   ],
   providers: [MessageService],
   bootstrap: [AppComponent]

@@ -22,7 +22,7 @@ export class CustomComponent implements OnInit {
   metals: Metal[];
   val= 1;
   selectedMetal: Metal | undefined;
-
+  checked: boolean = false;
   constructor(
     private messageService: MessageService,
     private readonly httpClient: HttpClient

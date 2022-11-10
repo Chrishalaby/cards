@@ -24,14 +24,21 @@
       <button pButton (click)="addbtn()" icon="pi pi-fw pi-angle-up" class="p-button-rounded p-button-text"></button>
     </div>
     <span class="p-float-label mt-3">
-      <input id="float-input" type="text" pTooltip="Must match name on plastic Card!" tooltipPosition="right" pInputText>
+      <input id="float-input" type="text" pTooltip="Must match name on plastic Card!" tooltipPosition="right" tooltipEvent="focus" pInputText>
       <label for="float-input">Name on Card</label>
     </span>
     <span class="p-float-label mt-4">
-      <input id="float-input" type="text" pTooltip="Engraved Below your name" tooltipPosition="right" pInputText>
+      <input id="float-input" type="text" pTooltip="Engraved Below your name" tooltipPosition="right" tooltipEvent="focus" pInputText>
       <label for="float-input">Optional Text</label>
     </span>
-    <p-fileUpload class="mt-2" mode="basic" name="myfile[]" url="./upload.php" (onUpload)="onUpload($event)" accept="image/*" chooseLabel="Upload Image"></p-fileUpload>
+    <div class="field-checkbox ml-1 mb-0">
+      <p class="mr-2" pTooltip = "Insurance for 365 days. Includes up to one incidents which covers:
+      lost, stolen, damaged, bank reissued or expired cards. If any of these cases occur you can get a new metal card">Criply+</p>
+      <p-checkbox [(ngModel)]="checked" [binary]="true" inputId="binary"></p-checkbox>
+      <p class="text-xs pl-1">INSURANCE(+$20.00)</p>
+    </div>
+    <p-fileUpload class="mb-3" mode="basic" name="myfile[]" url="./upload.php" (onUpload)="onUpload($event)" accept="image/*" chooseLabel="Upload Image"></p-fileUpload>
+    <button pButton pRipple type="button" label="ADD TO CART" class="p-button-outlined p-button-success"></button>
   </div>
   <div class="flex flex-column align-content-center justify-content-center md:w-7 text-left">
     <p class="line-height-3 text-center">

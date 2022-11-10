@@ -6,7 +6,7 @@
 
 <section class="sm:max-w-max flex align-content-center flex-column flex-wrap line-height-3 text-center">
     <h1 class="text-3xl mb-0">Criply Converts Your Plastic Credit/Debit Card to Luxurious Metal or 24K Gold.</h1>
-    <p class="mt-0">Works with any Card. No Annual Fees. No Hidden Fees. Secure.</p>
+    <p class="mt-0 text-sm" style="color: grey;">Works with any Card. No Annual Fees. No Hidden Fees. Secure.</p>
     <h3 class="mb-0">Our Vision</h3>
     <div class="flex justify-content-center">
       <p class="sm:w-6">
@@ -32,7 +32,7 @@
         card will make a true difference which you can feel. Say Goodbye to plastic.
       </p>
       <div class="flex flex-row justify-content-around">
-        <button pButton pRipple type="button" label="Premade Cards" class="p-button-text" routerLink="premade"></button>
+        <button pButton pRipple type="button" label="Premade Cards" class="p-button-text" (onClick)="premade()"></button>
         <p class="m-5"></p>
         <button pButton pRipple type="button" label="Custom Cards" class="p-button-text" routerLink="custom"></button>
       </div>

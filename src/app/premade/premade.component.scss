@@ -1,0 +1,153 @@
+:host ::ng-deep {
+  .p-dropdown {
+    font-weight: normal;
+    width: 14rem;
+  }
+
+  .product-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .product-description {
+    margin: 0 0 1rem;
+  }
+
+  .product-category-icon {
+    margin-right: .5rem;
+    vertical-align: middle;
+  }
+
+  .product-category {
+    font-weight: 600;
+    vertical-align: middle;
+  }
+
+  .product-list-item {
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+
+    img {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      margin-right: 2rem;
+      width: 150px;
+    }
+
+    .product-list-detail {
+      flex: 1 1 0;
+    }
+
+    .p-rating {
+      margin: 0 0 .5rem;
+    }
+
+    .product-price {
+      align-self: flex-end;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: .5rem;
+    }
+
+    .product-list-action {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .p-button {
+      margin-bottom: .5rem;
+    }
+}
+
+  .product-grid-item {
+    border: 1px solid #dee2e6;
+    margin: .5em;
+
+    .product-grid-item-top,
+    .product-grid-item-bottom {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    img {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+      margin: 2rem 0;
+      width: 75%;
+    }
+
+    .product-grid-item-content {
+      text-align: center;
+    }
+
+    .product-price {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.product-badge {
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .3px;
+  padding: .25em .5rem;
+  text-transform: uppercase;
+}
+
+.product-badge.status-lowstock {
+  background: #FEEDAF;
+  color: #8a5340;
+}
+
+.product-badge.status-instock {
+  background: #81C784;
+  color: #256029;
+}
+
+.product-badge.status-outofstock {
+  background: #FFCDD2;
+  color: #c63737;
+}
+
+@media screen and (max-width: 576px) {
+:host ::ng-deep .product-list-item {
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      margin: 2rem 0;
+      width: 75%;
+  }
+
+    .product-list-detail {
+      text-align: center;
+    }
+
+    .product-price {
+      align-self: center;
+    }
+
+    .product-list-action {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-list-action {
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 2rem;
+      width: 100%;
+    }
+}
+}

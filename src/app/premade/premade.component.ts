@@ -13,7 +13,6 @@ export interface Product {
   inventoryStatus: string;
   category: string;
   rating: number;
-  color: string;
 }
 
 @Component({

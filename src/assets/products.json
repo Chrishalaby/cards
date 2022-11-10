@@ -2,219 +2,312 @@
   "data":[
     {
       "image": "abstract-ethereum.png",
-      "description": "Abstract-Ethereum",
+      "name": "Abstract-Ethereum",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Ace-of-Spades.png",
-      "description": "Ace of spades",
+      "name": "Ace of spades",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "American-dream.png",
-      "description": "American Drean",
+      "name": "American Drean",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Ancient-Pharaoh.png",
-      "description": "Ancient Pharaoh",
+      "name": "Ancient Pharaoh",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "butterfly-effect.png",
-      "description": "Butterfly Effect",
+      "name": "Butterfly Effect",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "distorted-lines.png",
-      "description": "Distorted Lines",
+      "name": "Distorted Lines",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "escobart-card.png",
-      "description": "Escobart",
+      "name": "Escobart",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Ethereum-Everywhere.png",
-      "description": "Ethereum Everywhere",
+      "name": "Ethereum Everywhere",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Ethereum.png",
-      "description": "Ethereum",
+      "name": "Ethereum",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Goku-Drip.png",
-      "description": "Goku Drip",
+      "name": "Goku Drip",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Horse-power.png",
-      "description": "Horse Power",
+      "name": "Horse Power",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "infinite-diamond.png",
-      "description": "Infinite Diamond",
+      "name": "Infinite Diamond",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Japanese-Zen.png",
-      "description": "Japanese Zen",
+      "name": "Japanese Zen",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Jet-money.png",
-      "description": "Jet Money",
+      "name": "Jet Money",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "lost-in-space.png",
-      "description": "Lost in Space",
+      "name": "Lost in Space",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Millionaire-club.png",
-      "description": "Millionaire Club",
+      "name": "Millionaire Club",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Money-maker.png",
-      "description": "Money Maker",
+      "name": "Money Maker",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Satoshi-express.png",
-      "description": "Satoshi Express",
+      "name": "Satoshi Express",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "skull-king.png",
-      "description": "Skull King",
+      "name": "Skull King",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Eren-stare.png",
-      "description": "Eren Stare",
+      "name": "Eren Stare",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Anonymous-hero.png",
-      "description": "Anonymous Hero",
+      "name": "Anonymous Hero",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Audio-cassette.png",
-      "description": "Audio Cassette",
+      "name": "Audio Cassette",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Black-card.png",
-      "description": "Black",
+      "name": "Black",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Going-broke.png",
-      "description": "Going Broke",
+      "name": "Going Broke",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "High-roller.png",
-      "description": "High Roller",
+      "name": "High Roller",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Lion-Leader.png",
-      "description": "Lion Leader",
+      "name": "Lion Leader",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Money-maker-limited-edition.png",
-      "description": "Money God",
+      "name": "Money God",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Most-wanted.png",
-      "description": "Most Wanted",
+      "name": "Most Wanted",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Usa-patriot.png",
-      "description": "USA Patriot",
+      "name": "USA Patriot",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "Uzi-Man.png",
-      "description": "Uzi Man",
+      "name": "Uzi Man",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     },
     {
       "image": "The-World.png",
-      "description": "World",
+      "name": "World",
       "price": 80,
-      "name": "criply"
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
 
     }
   ],
@@ -244,5 +337,4 @@
       "image": "custom-white.png"
     }
   ]
-
 }
