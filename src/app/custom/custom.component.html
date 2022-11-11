@@ -1,7 +1,7 @@
-<section class="flex justify-content-center flex-wrap mt-5">
+<section class="flex justify-content-center flex-wrap my-5 min-h-screen">
   <!-- <p class="flex flex-shrink-0">LOLLLLLLLLLLLLLLLLLLLLLLLLL</p>
   <img class="flex flex-grow-1 flex-shrink-1" src="assets/images/cardType.webp" style="max-height: 25vh; max-width: 40vh"> -->
-  <p-galleria class="sm:pr-0 md:pr-7" [value]="products" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}" [numVisible]="5" [circular]="true" [showItemNavigators]="true" [showThumbnails]="false" [showItemNavigatorsOnHover]="true">
+  <p-galleria class="sm:pr-0 md:pr-7 align-self-center" [value]="products" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}" [numVisible]="5" [circular]="true" [showItemNavigators]="true" [showThumbnails]="false" [showItemNavigatorsOnHover]="true">
     <ng-template pTemplate="item" let-item>
         <img [src]="'assets/images/custom/' + item.image"style="width: 100%;" />
     </ng-template>
@@ -10,17 +10,17 @@
             <img [src]="'assets/images/custom/' + item.image"/>
         </div>
     </ng-template> -->
-</p-galleria>
-  <div class="flex align-content-center flex-wrap flex-column sm: text-center">
+  </p-galleria>
+  <div class="flex align-content-center flex-wrap flex-column sm:text-center align-self-center">
     <p>Criply</p>
-    <h1 class="mt-0 text-3xl">Full Custom Card</h1>
-    <p class="my-0 text-xl">$90.00</p>
-    <p class="mt-0 text-xs">Tax Included + Free Shipping.</p>
-    <p-dropdown [options]="metals" [(ngModel)]="selectedMetal" placeholder="Select a Metal" optionLabel="name" [showClear]="true"></p-dropdown>
-    <p class="mb-0">Quantity</p>
+    <h1 class="text-3xl">Full Custom Card</h1>
+    <p class="text-2xl">$90.00</p>
+    <p class="text-xs">Tax Included + Free Shipping.</p>
+    <p-dropdown class="my-2" [options]="metals" [(ngModel)]="selectedMetal" placeholder="Select a Metal" optionLabel="name" [showClear]="true"></p-dropdown>
+    <p>Quantity</p>
     <div class="flex flex-row justify-content-between mt-1">
       <button pButton (click)="removebtn()" icon="pi pi-fw pi-angle-down" class="p-button-rounded p-button-text"></button>
-      <p>{{val}}</p>
+      <p class="pt-2">{{val}}</p>
       <button pButton (click)="addbtn()" icon="pi pi-fw pi-angle-up" class="p-button-rounded p-button-text"></button>
     </div>
     <span class="p-float-label mt-3">
@@ -31,16 +31,16 @@
       <input id="float-input" type="text" pTooltip="Engraved Below your name" tooltipPosition="right" tooltipEvent="focus" pInputText>
       <label for="float-input">Optional Text</label>
     </span>
-    <div class="field-checkbox ml-1 mb-0">
+    <div class="field-checkbox ml-1 my-2">
       <p class="mr-2" pTooltip = "Insurance for 365 days. Includes up to one incidents which covers:
       lost, stolen, damaged, bank reissued or expired cards. If any of these cases occur you can get a new metal card">Criply+</p>
       <p-checkbox [(ngModel)]="checked" [binary]="true" inputId="binary"></p-checkbox>
       <p class="text-xs pl-1">INSURANCE(+$20.00)</p>
     </div>
-    <p-fileUpload class="mb-3" mode="basic" name="myfile[]" url="./upload.php" (onUpload)="onUpload($event)" accept="image/*" chooseLabel="Upload Image"></p-fileUpload>
-    <button pButton pRipple type="button" label="ADD TO CART" class="p-button-outlined p-button-success"></button>
+    <p-fileUpload class="my-2" mode="basic" name="myfile[]" url="./upload.php" (onUpload)="onUpload($event)" accept="image/*" chooseLabel="Upload Image"></p-fileUpload>
+    <button pButton pRipple type="button" label="ADD TO CART" class="p-button-outlined p-button-success test"></button>
   </div>
-  <div class="flex flex-column align-content-center justify-content-center md:w-7 text-left">
+  <div class="flex flex-column align-content-center justify-content-center md:w-7 text-left sm:mt-2">
     <p class="line-height-3 text-center">
       For a Fully Custom Design Luxury Metal Card,
       please go through the purchase process and configure your
