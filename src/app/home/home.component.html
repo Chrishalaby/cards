@@ -32,9 +32,9 @@
         card will make a true difference which you can feel. Say Goodbye to plastic.
       </p>
       <div class="flex flex-row justify-content-around my-2">
-        <button pButton pRipple type="button" label="Premade Cards" class="p-button-text" (onClick)="premade()"></button>
+        <button pButton pRipple type="button" label="Premade Cards" class="p-button-text" [routerLink]="['/premade']"></button>
         <p class="m-5"></p>
-        <button pButton pRipple type="button" label="Custom Cards" class="p-button-text" routerLink="custom"></button>
+        <button pButton pRipple type="button" label="Custom Cards" class="p-button-text" [routerLink]="['/custom']"></button>
       </div>
       <div class="h-20rem w-12 text-left mt-2" style="background-image: url('assets/Custom-Gold.png');background-repeat: no-repeat; background-position: center; background-size: cover;">
         <h2 class="ml-3 mt-4">The 24K ALL IN GOLD CRIPLY CARD</h2>
