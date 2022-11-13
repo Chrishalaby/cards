@@ -1,7 +1,7 @@
 <section class="flex justify-content-center flex-wrap my-5 min-h-screen">
   <!-- <p class="flex flex-shrink-0">LOLLLLLLLLLLLLLLLLLLLLLLLLL</p>
   <img class="flex flex-grow-1 flex-shrink-1" src="assets/images/cardType.webp" style="max-height: 25vh; max-width: 40vh"> -->
-  <p-galleria class="sm:pr-0 md:pr-7 align-self-center" [value]="products" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}" [numVisible]="5" [circular]="true" [showItemNavigators]="true" [showThumbnails]="false" [showItemNavigatorsOnHover]="true">
+  <p-galleria class="sm:pr-0 md:pr-7 align-self-center" [value]="products" [autoPlay]="true" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}" [numVisible]="5" [circular]="true" [showItemNavigators]="true" [showThumbnails]="false" [showItemNavigatorsOnHover]="true">
     <ng-template pTemplate="item" let-item>
         <img [src]="'assets/images/custom/' + item.image"style="width: 100%;" />
     </ng-template>

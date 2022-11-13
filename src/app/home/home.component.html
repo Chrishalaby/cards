@@ -1,36 +1,27 @@
-<!-- <p-galleria [value]="products" [showThumbnails]="false">
-  <ng-template pTemplate="item" let-item>
-      <img class="w-6" [src]="'assets/images/' + products[0].image" style="height: 50vh;"/>
-  </ng-template>
-</p-galleria> -->
-
 <section class="sm:max-w-max flex align-content-center flex-column flex-wrap line-height-3 text-center">
     <h1 class="text-3xl">Criply Converts Your Plastic Credit/Debit Card to Luxurious Metal or 24K Gold.</h1>
     <p class="text-sm" style="color: grey;">Works with any Card. No Annual Fees. No Hidden Fees. Secure.</p>
+    <div class="flex  sm:flex-row flex-column flex-wrap align-content-center justify-content-around mt-5 ">
+      <h2 class="align-self-center green--color" >Rare & Exclusive.</h2>
+      <p-galleria class="sm:ml-5 ml-0 my-3" [value]="products" [autoPlay]="true"[containerStyle]="{'max-width': '640px'}" [showThumbnails]="false">
+        <ng-template pTemplate="item" let-item>
+            <img [src]="'assets/images/premade/' + item.image"style="width: 100%;" />
+        </ng-template>
+      </p-galleria>
+      <h2 class="align-self-center green--color sm:mt-0 mt-6">Heavier than any Card.</h2>
+    </div>
+
     <h3 class="mt-3">Our Vision</h3>
     <div class="flex justify-content-center">
       <p class="sm:w-6 my-3">
         For many decades Metal Credit/Debit Cards were only reserved for the wealthy elite.
-        Until now! Criply is specialized in making the world's <b>Heaviest</b> and most
-        <b>Luxurious</b> Custom Metal Cards because we believe you deserve better than plastic.
+        Until now! Criply is specialized in making the world's <b class="green--color">Heaviest</b> and most
+        <b class="green--color">Luxurious</b> Custom Metal Cards because we believe you deserve better than plastic.
         Each card is a true art piece made for your pocket.
         No more spending a fortune just to own a luxury metal card. This is Criply.
       </p>
     </div>
-    <div class="flex flex-column justify-content-between align-items-center mt-4">
-      <!-- <img src="assets/images/skull.webp" class="w-3"> -->
-      <h3>Rare & Exclusive.</h3>
-      <p class="mb-5">
-        Each card is individually crafted and hand-finished to be the only one
-        like it in the world. With a precise laser, a beautiful design is engraved
-        on your card just like magic.
-      </p>
-      <h3>Heavier than any Card.</h3>
-      <p>
-        A heavy Card was not enough for us.
-        So we made the World's Heaviest Luxury Metal Card. With 28 grams this
-        card will make a true difference which you can feel. Say Goodbye to plastic.
-      </p>
+    <div class="flex flex-column justify-content-between align-items-center ">
       <div class="flex flex-row justify-content-around my-2">
         <button pButton pRipple type="button" label="Premade Cards" class="p-button-text" [routerLink]="['/premade']"></button>
         <p class="m-5"></p>
