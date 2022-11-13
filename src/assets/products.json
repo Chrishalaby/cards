@@ -1,4 +1,30 @@
 {
+  "customised": [
+    {
+      "image": "custom-front-black-white.png"
+    },
+    {
+      "image": "custom-back.png"
+    },
+    {
+      "image": "custom-front-black-gold.png"
+    },
+    {
+      "image": "custom-all.png"
+    },
+    {
+      "image": "custom-gold.png"
+    },
+    {
+      "image": "custom-rose_gold.png"
+    },
+    {
+      "image": "custom-silver.png"
+    },
+    {
+      "image": "custom-white.png"
+    }
+  ],
   "data":[
     {
       "image": "American-dream.png",
@@ -309,32 +335,6 @@
       "rating": 5,
       "category": "Cards"
 
-    }
-  ],
-  "customised": [
-    {
-      "image": "custom-front-black-white.png"
-    },
-    {
-      "image": "custom-back.png"
-    },
-    {
-      "image": "custom-front-black-gold.png"
-    },
-    {
-      "image": "custom-all.png"
-    },
-    {
-      "image": "custom-gold.png"
-    },
-    {
-      "image": "custom-rose_gold.png"
-    },
-    {
-      "image": "custom-silver.png"
-    },
-    {
-      "image": "custom-white.png"
     }
   ]
 }
