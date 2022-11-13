@@ -1,26 +1,6 @@
 {
   "data":[
     {
-      "image": "abstract-ethereum.png",
-      "name": "Abstract-Ethereum",
-      "price": 80,
-      "description": "criply",
-      "inventoryStatus": "INSTOCK",
-      "rating": 5,
-      "category": "Cards"
-
-    },
-    {
-      "image": "Ace-of-Spades.png",
-      "name": "Ace of spades",
-      "price": 80,
-      "description": "criply",
-      "inventoryStatus": "INSTOCK",
-      "rating": 5,
-      "category": "Cards"
-
-    },
-    {
       "image": "American-dream.png",
       "name": "American Drean",
       "price": 80,
@@ -303,6 +283,26 @@
     {
       "image": "The-World.png",
       "name": "World",
+      "price": 80,
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
+
+    },
+    {
+      "image": "abstract-ethereum.png",
+      "name": "Abstract-Ethereum",
+      "price": 80,
+      "description": "criply",
+      "inventoryStatus": "INSTOCK",
+      "rating": 5,
+      "category": "Cards"
+
+    },
+    {
+      "image": "Ace-of-Spades.png",
+      "name": "Ace of spades",
       "price": 80,
       "description": "criply",
       "inventoryStatus": "INSTOCK",
